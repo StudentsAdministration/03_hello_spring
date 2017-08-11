@@ -1,2 +1,2 @@
-# 2_04_hello_world
+# #4 Hello Spring
 Build a spring boot application using intellij idea
