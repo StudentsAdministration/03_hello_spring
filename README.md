@@ -10,4 +10,7 @@ Next, select Spring Initializr from the project type in the left panel, select y
 
 <img src="https://patrickgrimard.io/images/intellij-spring-initializr-dialog.png" />
 
+
+<img src="https://patrickgrimard.io/images/intellij-spring-initializr-dialog.png" />
+
 _(heavily inspired by https://patrickgrimard.io/2014/08/14/how-to-build-a-spring-boot-application-using-intellij-idea/)_
