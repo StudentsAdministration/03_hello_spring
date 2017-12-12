@@ -28,4 +28,4 @@ Click Next once you’ve selected all your dependencies.
 
 _(heavily inspired by https://patrickgrimard.io/2014/08/14/how-to-build-a-spring-boot-application-using-intellij-idea/)_
 
-_(C) clbo@kea.dk 2017_
+_<div align="right">&copy; clbo@kea.dk</div>_
