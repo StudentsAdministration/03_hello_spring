@@ -1,22 +1,354 @@
-<h1 id="hello-spring">#3 Hello Spring</h1>
-<h2 id="tutorial-build-a-spring-boot-application-using-intellij-idea">Tutorial: Build a spring boot application using intellij idea</h2>
-<h3 id="create-your-new-project-with-intellij">Create your new project with intellij</h3>
-<p>Open up IntelliJ and click on the Create New Project option.</p>
-<p><img src="rsc/1.png" /></p>
-<p>Next, select Spring Initializr from the project type in the left panel, select your Project SDK and then click Next. The Initializr Service URL should already be populated.</p>
-<p><img src="rsc/2.png" /></p>
-<p><img src="rsc/3.png" /></p>
-<p>Next select any Spring Framework dependency your project will require. here you should choose</p>
-<ul>
-<li>Web -&gt; Web</li>
-<li>Template Engines -&gt; Thymeleaf</li>
-</ul>
-<p>Click Next once you’ve selected all your dependencies.</p>
-<p><img src="rsc/4.png" /></p>
-<p><img src="rsc/5.png" /></p>
-<p><em>(heavily inspired by https://patrickgrimard.io/2014/08/14/how-to-build-a-spring-boot-application-using-intellij-idea/)</em></p>
+#LyX file created by tex2lyx 2.2
+\lyxformat 508
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin /Users/clbo/Google Drive/KEA_Macbook/SoftwareKonstruktion/2.semester/StudentsAdministration_baseorganization_on_github/03_hello_spring/documents/
+\textclass article
+\use_default_options false
+\maintain_unincluded_children false
+\language english
+\language_package none
+\inputencoding auto
+\fontencoding default
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 0
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 0
+\use_package mathtools 0
+\use_package mhchem 0
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+hypertarget{hello-spring}{
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+#3 Hello Spring
+\end_layout
+
+\begin_layout Standard
+
+\begin_inset CommandInset label
+LatexCommand label
+name "hello-spring"
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+hypertarget{tutorial-build-a-spring-boot-application-using-intellij-idea}{
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Tutorial: Build a spring boot application using intellij idea
+\end_layout
+
+\begin_layout Standard
+
+\begin_inset CommandInset label
+LatexCommand label
+name "tutorial-build-a-spring-boot-application-using-intellij-idea"
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+hypertarget{create-your-new-project-with-intellij}{
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Create your new project with intellij
+\end_layout
+
+\begin_layout Standard
+
+\begin_inset CommandInset label
+LatexCommand label
+name "create-your-new-project-with-intellij"
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Open up IntelliJ and click on the Create New Project option.
+\end_layout
+
+\begin_layout Standard
+
+\begin_inset Graphics 
+	filename rsc/1.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Next, select Spring Initializr from the project type in the left panel, select your Project SDK and then click Next. The Initializr Service URL should already be populated.
+\end_layout
+
+\begin_layout Standard
+
+\begin_inset Graphics 
+	filename rsc/2.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\begin_inset Graphics 
+	filename rsc/3.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Next select any Spring Framework dependency your project will require. here you should choose
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+tightlist
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Web -
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+textgreater
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+{}
+\end_layout
+
+\end_inset
+
+ Web 
+\end_layout
+
+\begin_layout Itemize
+Template Engines -
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+textgreater
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+{}
+\end_layout
+
+\end_inset
+
+ Thymeleaf 
+\end_layout
+
+\begin_layout Standard
+Click Next once you've selected all your dependencies.
+\end_layout
+
+\begin_layout Standard
+
+\begin_inset Graphics 
+	filename rsc/4.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\begin_inset Graphics 
+	filename rsc/5.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+(heavily inspired by https://patrickgrimard.io/2014/08/14/how-to-build-a-spring-boot-application-using-intellij-idea/)
+\emph default
+
+\end_layout
+
+\begin_layout Standard
 _
-<div data-align="right">
-© clbo@kea.dk
-</div>
-<p>_</p>
+\end_layout
+
+\begin_layout Standard
+Â© clbo@kea.dk
+\end_layout
+
+\begin_layout Standard
+_ 
+\end_layout
+
+\end_body
+\end_document
