@@ -1,0 +1,22 @@
+<h1 id="hello-spring">#3 Hello Spring</h1>
+<h2 id="tutorial-build-a-spring-boot-application-using-intellij-idea">Tutorial: Build a spring boot application using intellij idea</h2>
+<h3 id="create-your-new-project-with-intellij">Create your new project with intellij</h3>
+<p>Open up IntelliJ and click on the Create New Project option.</p>
+<p><img src="rsc/1.png" /></p>
+<p>Next, select Spring Initializr from the project type in the left panel, select your Project SDK and then click Next. The Initializr Service URL should already be populated.</p>
+<p><img src="rsc/2.png" /></p>
+<p><img src="rsc/3.png" /></p>
+<p>Next select any Spring Framework dependency your project will require. here you should choose</p>
+<ul>
+<li>Web -&gt; Web</li>
+<li>Template Engines -&gt; Thymeleaf</li>
+</ul>
+<p>Click Next once you’ve selected all your dependencies.</p>
+<p><img src="rsc/4.png" /></p>
+<p><img src="rsc/5.png" /></p>
+<p><em>(heavily inspired by https://patrickgrimard.io/2014/08/14/how-to-build-a-spring-boot-application-using-intellij-idea/)</em></p>
+_
+<div data-align="right">
+© clbo@kea.dk
+</div>
+<p>_</p>
