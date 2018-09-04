@@ -7,8 +7,6 @@ Open up IntelliJ and click on the Create New Project option.
 ![](./rsc/1.png)
 
 
-&copy;
-
 
 Next, select Spring Initializr from the project type in the left panel, select your Project SDK and then click Next.  The Initializr Service URL should already be populated.    
 
